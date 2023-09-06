@@ -1,0 +1,56 @@
+#:kivy 1.0.9
+
+<LSTMGAWidget>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Neuroevolved Bi-Directional LSTM Training'
+            font_size: 32
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: 1, 0.25
+            Label:
+                size_hint: 0.1, 1
+            Label:
+                text: 'Population size'
+                font_size: 16
+            TextInput: 
+                text: "96"
+                id: population_size
+            Label:
+                size_hint: 0.1, 1
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: 1, 0.25
+            Label:
+                size_hint: 0.1, 1
+            Label:
+                text: 'Number of processes used to split the population'
+                font_size: 16
+            TextInput: 
+                text: "96"
+                id: n_processes
+            Label:
+                size_hint: 0.1, 1
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: 1, 0.25
+            Label:
+                size_hint: 0.1, 1
+            Label:
+                text: 'Minimum number of epochs'
+                font_size: 16
+            TextInput: 
+                text: "20"
+                id: epochs
+            Label:
+                size_hint: 0.1, 1
+        Label:
+            size_hint: 1, 0.25
+        Button:
+            text: 'Start training process...'
+            size_hint: 0.9, 0.5
+            pos_hint: {'center_x':0.5, 'center_y':0.5}
+            on_release:
+                root.run_training(root.ids.population_size.text, root.ids.n_processes.text, root.ids.epochs.text)
+        Label:

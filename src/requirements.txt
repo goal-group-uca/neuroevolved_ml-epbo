@@ -1,0 +1,15 @@
+dask
+distributed
+kivy
+matplotlib
+mockito
+numpy
+pandas
+plotly
+PyHamcrest
+pyspark
+scikit_learn
+scipy
+statsmodels
+tensorflow
+tqdm
