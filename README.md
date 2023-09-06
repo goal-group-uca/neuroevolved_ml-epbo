@@ -3,11 +3,17 @@
 Source code and data to use the Neuroevolved Bi-Directional LSTM Applied to Zero Emissions Zones Management in Urban Transport
   
 ## Usage
-### Binary files
-There are two binary files to execute the training software inside the GA directory:
+### Binary
+Binary files can be downloaded from the following link:
+https://ucaes-my.sharepoint.com/:u:/g/personal/josemiguel_aragon_uca_es/Eezfabc_u0dEpwNkJ1BCekwB-jIFLOVEzNabSRsYYzmzxA?e=1uhL1K
 
-  * **main**. Unix type system binary file.
-  * **main.exe**. Windows type system executable file.
+There are three different precompiled software versions:
+
+  * **ubuntu**. Precompiled software version for Ubuntu-like Operating Systems.
+  * **windows**. Precompiled software version for Windows Operating System.
+  * **archlinux**. Precompiled software version for ArchLinux-like Operating Systems.
+
+Running the file will bring up a user interface where you can edit different parameters of the LSTM training. The training will start when the main button is pressed, saving the results of the genetics in a file called results.data at the end.
 
 ### Bash scripts
 There are two bash scripts in the base directory (requires Python 3 previously installed):
