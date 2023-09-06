@@ -25,7 +25,3 @@ Then, you can launch the GA used to train the LSTM running the following command
 ``python3 LSTMGAMain.py``
 
 Furthermore, you can modify the some parameters of the GA configuration inside the LSTMGAMain.py file such as the population size or the minimum number of epochs among others.
-
-## Contact
-
-Any problems or doubts with the source code contact me at **josemiguel.aragon@uca.es**.
