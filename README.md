@@ -1,6 +1,27 @@
 # The Machine Learning Efficient PHE Bus Operation Model, ML-EPBO
 
 Source code and data to use the Neuroevolved Bi-Directional LSTM Applied to Zero Emissions Zones Management in Urban Transport
+
+## How to cite
+If you use this work, please cite this article:
+https://doi.org/10.1016/j.asoc.2023.110943
+
+### APA
+
+> Aragón-Jurado, J. M., de la Torre, J. C., Jareño, J., Dorronsoro, B., Zomaya, A., & Ruiz, P. (2023). Neuroevolved bi-directional LSTM applied to zero emission zones management in urban transport. *Applied Soft Computing*, 148, 110943.
+
+### BibTeX
+```
+@article{aragon2023neuroevolved,
+  title={Neuroevolved bi-directional LSTM applied to zero emission zones management in urban transport},
+  author={Arag{\'o}n-Jurado, JM and de la Torre, JC and Jare{\~n}o, J and Dorronsoro, B and Zomaya, A and Ruiz, P},
+  journal={Applied Soft Computing},
+  volume={148},
+  pages={110943},
+  year={2023},
+  publisher={Elsevier}
+}
+```
   
 ## Usage
 ### Binary
